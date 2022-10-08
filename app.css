@@ -52,6 +52,7 @@ main {
 }
 
 .viewicon__img:hover {
+  cursor: pointer;
   opacity: 1;
 }
 
@@ -77,6 +78,7 @@ h2 {
 }
 
 h2:hover {
+  cursor: pointer;
   color: hsl(178, 100%, 50%);
 }
 
@@ -149,6 +151,7 @@ p {
 }
 
 .hero__span {
+  cursor: pointer;
   padding: 0 0 0 2%;
   color: white;
 }
@@ -184,6 +187,7 @@ p {
 }
 
 .hypertext {
+  cursor: pointer;
   padding: 0 0 0 0.2em;
 }
 
