@@ -49,6 +49,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity ease-in-out 0.3s;
 }
 
 .viewicon__img:hover {
