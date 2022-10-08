@@ -28,22 +28,40 @@ main {
   padding: 1.3em;
 }
 
-.nft {
+.container__img {
+  display: flex;
   position: relative;
+  border-radius: 7px;
+  background-color: hsl(178, 100%, 50%);
+}
+
+.nft {
+  display: flex;
   width: 100%;
   border-radius: 7px;
+  box-sizing: border-box;
+  opacity: 1;
 }
 
 .nft:hover {
+  opacity: 0.33;
 }
 
 .view__img {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 48px;
   height: 48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
 }
 
 .view__img:hover {
+  opacity: 1;
 }
 
 .description {
@@ -85,13 +103,11 @@ p {
 }
 
 .img__eth {
-  width: 100%;
   width: 11px;
   height: 18px;
 }
 
 .img__clock {
-  width: 100%;
   width: 17px;
   height: 17px;
 }
@@ -129,7 +145,6 @@ p {
 }
 
 .hero__img {
-  width: 100%;
   width: 33px;
   height: 33px;
   border: 1px solid white;
