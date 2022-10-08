@@ -191,7 +191,7 @@ p {
   padding: 0 0 0 0.2em;
 }
 
-@media (min-width: 320px) and (max-width: 1440px) {
+@media (max-width: 1150px) {
   main {
     width: 90%;
   }
